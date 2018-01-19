@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#86888a</color>
+    <color name="colorAccent">#323232</color>
+    <color name="numberbuttins">#313131</color>
+    <color name="operbtns">#444444</color>
+    <color name="rightbtncolor">#1565c0</color>
+</resources>
