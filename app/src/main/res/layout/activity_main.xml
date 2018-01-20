@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:keepScreenOn="true"
     tools:context="com.example.savar.cipher.MainActivity">
 
     <android.support.constraint.Guideline
@@ -42,31 +43,37 @@
             android:layout_weight="1">
 
             <Button
-                android:id="@+id/button3"
+                android:id="@+id/seven"
                 style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@color/numberbuttins"
+                android:fontFamily="@font/inconsolata"
                 android:text="7"
-                android:textColor="@android:color/white" />
+                android:textColor="@android:color/white"
+                android:textSize="35sp" />
 
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/eight"
                 style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@color/numberbuttins"
+                android:fontFamily="@font/inconsolata"
                 android:text="8"
-                android:textColor="@android:color/white" />
+                android:textColor="@android:color/white"
+                android:textSize="35sp" />
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/nine"
                 style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@color/numberbuttins"
+                android:fontFamily="@font/inconsolata"
                 android:text="9"
-                android:textColor="@android:color/white" />
+                android:textColor="@android:color/white"
+                android:textSize="35sp" />
         </TableRow>
 
         <TableRow
@@ -75,31 +82,37 @@
             android:layout_weight="1">
 
             <Button
-                android:id="@+id/button6"
+                android:id="@+id/four"
                 style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@color/numberbuttins"
+                android:fontFamily="@font/inconsolata"
                 android:text="4"
-                android:textColor="@android:color/white" />
+                android:textColor="@android:color/white"
+                android:textSize="35sp" />
 
             <Button
-                android:id="@+id/button5"
+                android:id="@+id/five"
                 style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@color/numberbuttins"
+                android:fontFamily="@font/inconsolata"
                 android:text="5"
-                android:textColor="@android:color/white" />
+                android:textColor="@android:color/white"
+                android:textSize="35sp" />
 
             <Button
-                android:id="@+id/button4"
+                android:id="@+id/six"
                 style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@color/numberbuttins"
+                android:fontFamily="@font/inconsolata"
                 android:text="6"
-                android:textColor="@android:color/white" />
+                android:textColor="@android:color/white"
+                android:textSize="35sp" />
         </TableRow>
 
         <TableRow
@@ -108,31 +121,37 @@
             android:layout_weight="1">
 
             <Button
-                android:id="@+id/button9"
+                android:id="@+id/one"
                 style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@color/numberbuttins"
+                android:fontFamily="@font/inconsolata"
                 android:text="1"
-                android:textColor="@android:color/white" />
+                android:textColor="@android:color/white"
+                android:textSize="35sp" />
 
             <Button
-                android:id="@+id/button8"
+                android:id="@+id/two"
                 style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@color/numberbuttins"
+                android:fontFamily="@font/inconsolata"
                 android:text="2"
-                android:textColor="@android:color/white" />
+                android:textColor="@android:color/white"
+                android:textSize="35sp" />
 
             <Button
-                android:id="@+id/button7"
+                android:id="@+id/three"
                 style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@color/numberbuttins"
+                android:fontFamily="@font/inconsolata"
                 android:text="3"
-                android:textColor="@android:color/white" />
+                android:textColor="@android:color/white"
+                android:textSize="35sp" />
         </TableRow>
 
         <TableRow
@@ -141,35 +160,42 @@
             android:layout_weight="1">
 
             <Button
-                android:id="@+id/button12"
+                android:id="@+id/dot"
                 style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@color/numberbuttins"
+                android:fontFamily="@font/inconsolata"
                 android:text="."
-                android:textColor="@android:color/white" />
+                android:textColor="@android:color/white"
+                android:textSize="35sp" />
 
             <Button
-                android:id="@+id/button11"
+                android:id="@+id/zero"
                 style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@color/numberbuttins"
+                android:fontFamily="@font/muli_extralight"
                 android:text="0"
-                android:textColor="@android:color/white" />
+                android:textColor="@android:color/white"
+                android:textSize="35sp" />
 
             <Button
-                android:id="@+id/button10"
+                android:id="@+id/equ"
                 style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@color/numberbuttins"
+                android:fontFamily="@font/inconsolata"
                 android:text="="
-                android:textColor="@android:color/white" />
+                android:textColor="@android:color/white"
+                android:textSize="35sp" />
         </TableRow>
     </TableLayout>
 
     <TableLayout
+        android:id="@+id/tableLayout2"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:background="@color/operbtns"
@@ -184,13 +210,15 @@
             android:layout_weight="1">
 
             <Button
-                android:id="@+id/button17"
+                android:id="@+id/del"
                 style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@color/operbtns"
+                android:fontFamily="@font/inconsolata"
                 android:text="DEL"
-                android:textColor="@android:color/white" />
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
         </TableRow>
 
         <TableRow
@@ -199,13 +227,15 @@
             android:layout_weight="1">
 
             <Button
-                android:id="@+id/button13"
+                android:id="@+id/div"
                 style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@color/operbtns"
+                android:fontFamily="@font/inconsolata"
                 android:text="÷"
-                android:textColor="@android:color/white" />
+                android:textColor="@android:color/white"
+                android:textSize="30sp" />
         </TableRow>
 
         <TableRow
@@ -214,13 +244,15 @@
             android:layout_weight="1">
 
             <Button
-                android:id="@+id/button14"
+                android:id="@+id/mul"
                 style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@color/operbtns"
+                android:fontFamily="@font/inconsolata"
                 android:text="×"
-                android:textColor="@android:color/white" />
+                android:textColor="@android:color/white"
+                android:textSize="30sp" />
         </TableRow>
 
         <TableRow
@@ -229,13 +261,15 @@
             android:layout_weight="1">
 
             <Button
-                android:id="@+id/button15"
+                android:id="@+id/minus"
                 style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@color/operbtns"
+                android:fontFamily="@font/inconsolata"
                 android:text="-"
-                android:textColor="@android:color/white" />
+                android:textColor="@android:color/white"
+                android:textSize="35sp" />
         </TableRow>
 
         <TableRow
@@ -244,26 +278,111 @@
             android:layout_weight="1">
 
             <Button
-                android:id="@+id/button16"
+                android:id="@+id/plus"
                 style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@color/operbtns"
+                android:fontFamily="@font/inconsolata"
                 android:text="+"
-                android:textColor="@android:color/white" />
+                android:textColor="@android:color/white"
+                android:textSize="24sp" />
         </TableRow>
     </TableLayout>
 
     <Button
-        android:id="@+id/button19"
+        android:id="@+id/lessbtn"
         style="@style/Widget.AppCompat.Button.Borderless"
-        android:layout_width="24dp"
+        android:layout_width="0dp"
         android:layout_height="0dp"
         android:background="@color/rightbtncolor"
-        android:text="<"
+        android:fontFamily="@font/inconsolata"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/guideline2"
-        app:layout_constraintTop_toTopOf="@+id/guideline"
-        app:layout_constraintVertical_bias="0.513" />
+        app:layout_constraintStart_toEndOf="@id/guideline2"
+        app:layout_constraintTop_toBottomOf="@id/guideline" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.028" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.08" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.22" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/inconsolata"
+        android:text="⋮"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toBottomOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:fontFamily="@font/inconsolata"
+        android:text="RAD"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/textView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="8dp"
+        android:background="@android:color/transparent"
+        android:ems="10"
+        android:fontFamily="@font/inconsolata"
+        android:gravity="right"
+        android:inputType="number"
+        android:text="546854324"
+
+
+        android:theme="@style/Customcursor"
+        app:layout_constraintBottom_toTopOf="@+id/guideline6"
+        app:layout_constraintEnd_toStartOf="@+id/guideline2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline5" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="24dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:fontFamily="@font/inconsolata"
+        android:gravity="right"
+        android:text="21654132"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline"
+        app:layout_constraintEnd_toStartOf="@+id/guideline2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/guideline6" />
 </android.support.constraint.ConstraintLayout>

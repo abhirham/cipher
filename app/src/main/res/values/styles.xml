@@ -8,4 +8,7 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="Customcursor" parent="TextAppearance.AppCompat">
+        <item name="colorAccent">@color/rightbtncolor</item>
+    </style>
 </resources>
